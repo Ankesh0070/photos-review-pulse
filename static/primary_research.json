@@ -1,0 +1,1476 @@
+{
+ "meta": {
+  "source": "Primary research — Google Forms survey",
+  "generated_at": "2026-10-05T16:14:54",
+  "respondents": 18,
+  "questions": 13,
+  "anonymised": true,
+  "caveat": "Small sample (n=18), convenience sampling: treat percentages as directional, not statistically representative."
+ },
+ "kpis": {
+  "n": 18,
+  "often": 8,
+  "failed_ever": 18,
+  "failed_often": 15,
+  "frustrated_top2": 4,
+  "frustrated_any": 17,
+  "unsure_conf": 6,
+  "confident": 12,
+  "want_clarify": 9,
+  "prefer_scroll": 2,
+  "browse_timeline": 4,
+  "follow_yes": 11,
+  "mean_frustration": 2.72,
+  "mean_confidence": 3.61,
+  "pct_often": 44,
+  "pct_failed_ever": 100,
+  "pct_failed_often": 83,
+  "pct_frustrated_top2": 22,
+  "pct_want_clarify": 50,
+  "pct_confident": 67,
+  "pct_follow_yes": 61
+ },
+ "highlights": [
+  "18 of 18 respondents (100%) have known a photo was in Google Photos and still failed to find it; 15 (83%) say this happens “Sometimes” or “Frequently”.",
+  "17 of 18 (94%) find a failed search at least slightly frustrating; 4 (22%) call it very or extremely frustrating. Mean frustration: 2.72 / 5.",
+  "Top reason for failure: “I don't remember enough details” (5 of 18). Second: “I don't know what words to search” (4).",
+  "The clues people remember first are person/persons (13), event/occasion (10), approximate time/period (7).",
+  "9 of 18 (50%) would prefer Google Photos to ask clarifying questions when it doesn’t understand them — the most-picked interaction.",
+  "After a failed search, the most common next step is “add more details” (7); 4 fall back to browsing the timeline.",
+  "Only 12 of 18 (67%) are confident they can describe a half-remembered item well enough for search to find it.",
+  "Most-wanted narrowing filters: place (9), approximate date/time (8), person (8).",
+  "Less confident respondents are more frustrated: mean frustration 3.67 for “somewhat unsure” (n=3) vs 1.5 for “very confident” (n=2) — directional, small groups.",
+  "Frustration climbs with failure frequency: 2 for “rarely” (n=3) vs 3.2 for “frequently” (n=5)."
+ ],
+ "questions": [
+  {
+   "id": "freq",
+   "short": "Search frequency",
+   "text": "How often do you search Google Photos for something you only vaguely remember?",
+   "type": "single",
+   "answered": 18,
+   "dist": [
+    {
+     "label": "Rarely",
+     "count": 2,
+     "pct": 11.1
+    },
+    {
+     "label": "Sometimes",
+     "count": 8,
+     "pct": 44.4
+    },
+    {
+     "label": "Often",
+     "count": 3,
+     "pct": 16.7
+    },
+    {
+     "label": "Very often",
+     "count": 5,
+     "pct": 27.8
+    }
+   ]
+  },
+  {
+   "id": "item",
+   "short": "What they looked for last time",
+   "text": "Think of the last time you tried to find something you only half remembered. What were you looking for?",
+   "type": "single",
+   "answered": 18,
+   "dist": [
+    {
+     "label": "Personal photo",
+     "count": 8,
+     "pct": 44.4
+    },
+    {
+     "label": "Medical document/prescription",
+     "count": 3,
+     "pct": 16.7
+    },
+    {
+     "label": "Screenshot",
+     "count": 3,
+     "pct": 16.7
+    },
+    {
+     "label": "Video",
+     "count": 2,
+     "pct": 11.1
+    },
+    {
+     "label": "Bill/receipt",
+     "count": 1,
+     "pct": 5.6
+    },
+    {
+     "label": "Note/handwritten image",
+     "count": 1,
+     "pct": 5.6
+    }
+   ]
+  },
+  {
+   "id": "clues",
+   "short": "Clues remembered first",
+   "text": "Which clues do you usually remember first? (up to 3)",
+   "type": "multi",
+   "answered": 18,
+   "dist": [
+    {
+     "label": "Person/persons",
+     "count": 13,
+     "pct": 72.2
+    },
+    {
+     "label": "Event/occasion",
+     "count": 10,
+     "pct": 55.6
+    },
+    {
+     "label": "Approximate time/period",
+     "count": 7,
+     "pct": 38.9
+    },
+    {
+     "label": "Place",
+     "count": 5,
+     "pct": 27.8
+    },
+    {
+     "label": "Word/name",
+     "count": 3,
+     "pct": 16.7
+    },
+    {
+     "label": "How the image looked",
+     "count": 2,
+     "pct": 11.1
+    },
+    {
+     "label": "Object visible in the image",
+     "count": 2,
+     "pct": 11.1
+    },
+    {
+     "label": "Brand/shop/company",
+     "count": 1,
+     "pct": 5.6
+    }
+   ]
+  },
+  {
+   "id": "confidence",
+   "short": "Confidence describing it",
+   "text": "How confident are you that you can describe a half-remembered item well enough for Google Photos to find it?",
+   "type": "single",
+   "answered": 18,
+   "dist": [
+    {
+     "label": "Very unsure",
+     "count": 0,
+     "pct": 0
+    },
+    {
+     "label": "Somewhat unsure",
+     "count": 3,
+     "pct": 16.7
+    },
+    {
+     "label": "Neither confident nor unsure",
+     "count": 3,
+     "pct": 16.7
+    },
+    {
+     "label": "Somewhat confident",
+     "count": 10,
+     "pct": 55.6
+    },
+    {
+     "label": "Very confident",
+     "count": 2,
+     "pct": 11.1
+    }
+   ]
+  },
+  {
+   "id": "query",
+   "short": "What they type in search",
+   "text": "What do you usually enter when searching for something you vaguely remember? (up to 3)",
+   "type": "multi",
+   "answered": 18,
+   "dist": [
+    {
+     "label": "A description of what is in the image",
+     "count": 9,
+     "pct": 50
+    },
+    {
+     "label": "A person's name",
+     "count": 7,
+     "pct": 38.9
+    },
+    {
+     "label": "A place",
+     "count": 6,
+     "pct": 33.3
+    },
+    {
+     "label": "A date/month/year",
+     "count": 5,
+     "pct": 27.8
+    },
+    {
+     "label": "A word or phrase visible in the image",
+     "count": 3,
+     "pct": 16.7
+    },
+    {
+     "label": "A combination of several clues",
+     "count": 2,
+     "pct": 11.1
+    },
+    {
+     "label": "A number/amount",
+     "count": 2,
+     "pct": 11.1
+    },
+    {
+     "label": "I usually don't search; I scroll",
+     "count": 2,
+     "pct": 11.1
+    }
+   ]
+  },
+  {
+   "id": "failed",
+   "short": "Known item but could not find it",
+   "text": "Have you ever known an item was definitely in Google Photos but still been unable to find it?",
+   "type": "single",
+   "answered": 18,
+   "dist": [
+    {
+     "label": "Never",
+     "count": 0,
+     "pct": 0
+    },
+    {
+     "label": "Rarely",
+     "count": 3,
+     "pct": 16.7
+    },
+    {
+     "label": "Sometimes",
+     "count": 10,
+     "pct": 55.6
+    },
+    {
+     "label": "Frequently",
+     "count": 5,
+     "pct": 27.8
+    }
+   ]
+  },
+  {
+   "id": "reason",
+   "short": "Biggest reason for failing",
+   "text": "What is the biggest reason you fail to find something you know is there?",
+   "type": "single",
+   "answered": 18,
+   "dist": [
+    {
+     "label": "I don't remember enough details",
+     "count": 5,
+     "pct": 27.8
+    },
+    {
+     "label": "I don't know what words to search",
+     "count": 4,
+     "pct": 22.2
+    },
+    {
+     "label": "I can't remember approximately when it was saved",
+     "count": 3,
+     "pct": 16.7
+    },
+    {
+     "label": "Search doesn't understand my description",
+     "count": 2,
+     "pct": 11.1
+    },
+    {
+     "label": "Text inside the image isn't recognised",
+     "count": 2,
+     "pct": 11.1
+    },
+    {
+     "label": "I get too many unrelated results",
+     "count": 1,
+     "pct": 5.6
+    },
+    {
+     "label": "Similar items look almost identical",
+     "count": 1,
+     "pct": 5.6
+    }
+   ]
+  },
+  {
+   "id": "next",
+   "short": "Next step after a failed search",
+   "text": "When your first search fails, what is the very next thing you usually do?",
+   "type": "single",
+   "answered": 18,
+   "dist": [
+    {
+     "label": "Add more details",
+     "count": 7,
+     "pct": 38.9
+    },
+    {
+     "label": "Browse the timeline",
+     "count": 4,
+     "pct": 22.2
+    },
+    {
+     "label": "Search by person/place/date",
+     "count": 3,
+     "pct": 16.7
+    },
+    {
+     "label": "Try different keywords",
+     "count": 3,
+     "pct": 16.7
+    },
+    {
+     "label": "Check an album/folder",
+     "count": 1,
+     "pct": 5.6
+    }
+   ]
+  },
+  {
+   "id": "hardest",
+   "short": "Hardest information to search for",
+   "text": "Which type of information do you find hardest to search for inside an image? (up to 3)",
+   "type": "multi",
+   "answered": 18,
+   "dist": [
+    {
+     "label": "Addresses",
+     "count": 5,
+     "pct": 27.8
+    },
+    {
+     "label": "I don't usually search text inside images",
+     "count": 5,
+     "pct": 27.8
+    },
+    {
+     "label": "Names",
+     "count": 5,
+     "pct": 27.8
+    },
+    {
+     "label": "Dates",
+     "count": 4,
+     "pct": 22.2
+    },
+    {
+     "label": "Phone numbers",
+     "count": 4,
+     "pct": 22.2
+    },
+    {
+     "label": "Amounts/prices",
+     "count": 3,
+     "pct": 16.7
+    },
+    {
+     "label": "Handwritten text",
+     "count": 2,
+     "pct": 11.1
+    },
+    {
+     "label": "Non-English text",
+     "count": 2,
+     "pct": 11.1
+    },
+    {
+     "label": "Invoice/bill numbers",
+     "count": 1,
+     "pct": 5.6
+    }
+   ]
+  },
+  {
+   "id": "frustration",
+   "short": "Frustration level",
+   "text": "How frustrating is it when you cannot find an item you remember saving?",
+   "type": "single",
+   "answered": 18,
+   "dist": [
+    {
+     "label": "Not frustrating",
+     "count": 1,
+     "pct": 5.6
+    },
+    {
+     "label": "Slightly frustrating",
+     "count": 8,
+     "pct": 44.4
+    },
+    {
+     "label": "Moderately frustrating",
+     "count": 5,
+     "pct": 27.8
+    },
+    {
+     "label": "Very frustrating",
+     "count": 3,
+     "pct": 16.7
+    },
+    {
+     "label": "Extremely frustrating",
+     "count": 1,
+     "pct": 5.6
+    }
+   ]
+  },
+  {
+   "id": "narrow",
+   "short": "What helps narrow broad results",
+   "text": "When search results are too broad, what would help you narrow them down most? (up to 3)",
+   "type": "multi",
+   "answered": 18,
+   "dist": [
+    {
+     "label": "Place",
+     "count": 9,
+     "pct": 50
+    },
+    {
+     "label": "Approximate date/time",
+     "count": 8,
+     "pct": 44.4
+    },
+    {
+     "label": "Person",
+     "count": 8,
+     "pct": 44.4
+    },
+    {
+     "label": "Event",
+     "count": 5,
+     "pct": 27.8
+    },
+    {
+     "label": "Source (WhatsApp, Camera, Screenshot, etc.)",
+     "count": 5,
+     "pct": 27.8
+    },
+    {
+     "label": "Image type",
+     "count": 4,
+     "pct": 22.2
+    },
+    {
+     "label": "Specific word/text",
+     "count": 3,
+     "pct": 16.7
+    },
+    {
+     "label": "Number/amount",
+     "count": 1,
+     "pct": 5.6
+    },
+    {
+     "label": "Objects in the image",
+     "count": 1,
+     "pct": 5.6
+    }
+   ]
+  },
+  {
+   "id": "interaction",
+   "short": "Preferred help when not understood",
+   "text": "If Google Photos doesn't understand what you mean, which interaction would you prefer?",
+   "type": "single",
+   "answered": 18,
+   "dist": [
+    {
+     "label": "It should ask me questions to clarify",
+     "count": 9,
+     "pct": 50
+    },
+    {
+     "label": "It should show related searches",
+     "count": 5,
+     "pct": 27.8
+    },
+    {
+     "label": "It should suggest better search terms",
+     "count": 3,
+     "pct": 16.7
+    },
+    {
+     "label": "It should automatically suggest filters",
+     "count": 1,
+     "pct": 5.6
+    }
+   ]
+  },
+  {
+   "id": "trust",
+   "short": "What builds trust in a result",
+   "text": "Which situation would make you trust a search result more?",
+   "type": "single",
+   "answered": 18,
+   "dist": [
+    {
+     "label": "The matching person is highlighted",
+     "count": 6,
+     "pct": 33.3
+    },
+    {
+     "label": "The matching word/text is highlighted",
+     "count": 4,
+     "pct": 22.2
+    },
+    {
+     "label": "The result looks visually similar to what I remember",
+     "count": 3,
+     "pct": 16.7
+    },
+    {
+     "label": "I don't need an explanation as long as the result is correct",
+     "count": 2,
+     "pct": 11.1
+    },
+    {
+     "label": "The matching date/place is shown",
+     "count": 2,
+     "pct": 11.1
+    },
+    {
+     "label": "Google explains why the item matched",
+     "count": 1,
+     "pct": 5.6
+    }
+   ]
+  }
+ ],
+ "crosstabs": {
+  "frustration_by_frequency": [
+   {
+    "group": "Rarely",
+    "n": 2,
+    "mean_frustration": 2.5
+   },
+   {
+    "group": "Sometimes",
+    "n": 8,
+    "mean_frustration": 2.88
+   },
+   {
+    "group": "Often",
+    "n": 3,
+    "mean_frustration": 2.67
+   },
+   {
+    "group": "Very often",
+    "n": 5,
+    "mean_frustration": 2.6
+   }
+  ],
+  "frustration_by_confidence": [
+   {
+    "group": "Somewhat unsure",
+    "n": 3,
+    "mean_frustration": 3.67
+   },
+   {
+    "group": "Neither confident nor unsure",
+    "n": 3,
+    "mean_frustration": 3
+   },
+   {
+    "group": "Somewhat confident",
+    "n": 10,
+    "mean_frustration": 2.6
+   },
+   {
+    "group": "Very confident",
+    "n": 2,
+    "mean_frustration": 1.5
+   }
+  ],
+  "frustration_by_failed": [
+   {
+    "group": "Rarely",
+    "n": 3,
+    "mean_frustration": 2
+   },
+   {
+    "group": "Sometimes",
+    "n": 10,
+    "mean_frustration": 2.7
+   },
+   {
+    "group": "Frequently",
+    "n": 5,
+    "mean_frustration": 3.2
+   }
+  ],
+  "frustration_by_item": [
+   {
+    "group": "Personal photo",
+    "n": 8,
+    "mean_frustration": 2.88
+   },
+   {
+    "group": "Medical document/prescription",
+    "n": 3,
+    "mean_frustration": 3.33
+   },
+   {
+    "group": "Screenshot",
+    "n": 3,
+    "mean_frustration": 2
+   },
+   {
+    "group": "Video",
+    "n": 2,
+    "mean_frustration": 2.5
+   },
+   {
+    "group": "Note/handwritten image",
+    "n": 1,
+    "mean_frustration": 3
+   },
+   {
+    "group": "Bill/receipt",
+    "n": 1,
+    "mean_frustration": 2
+   }
+  ],
+  "next_by_reason": {
+   "I don't remember enough details": {
+    "Search by person/place/date": 2,
+    "Try different keywords": 1,
+    "Add more details": 2
+   },
+   "I don't know what words to search": {
+    "Add more details": 4
+   },
+   "Search doesn't understand my description": {
+    "Browse the timeline": 1,
+    "Try different keywords": 1
+   },
+   "Similar items look almost identical": {
+    "Browse the timeline": 1
+   },
+   "I can't remember approximately when it was saved": {
+    "Browse the timeline": 1,
+    "Check an album/folder": 1,
+    "Search by person/place/date": 1
+   },
+   "Text inside the image isn't recognised": {
+    "Add more details": 1,
+    "Browse the timeline": 1
+   },
+   "I get too many unrelated results": {
+    "Try different keywords": 1
+   }
+  }
+ },
+ "stories": [
+  {
+   "id": "R02",
+   "item": "Personal photo",
+   "frustration": "Very frustrating",
+   "frequency": "Very often",
+   "outcome": "not found",
+   "tags": [
+    "document / text"
+   ],
+   "text": "Tried to find a screenshot but was unable",
+   "informative": true
+  },
+  {
+   "id": "R03",
+   "item": "Video",
+   "frustration": "Slightly frustrating",
+   "frequency": "Very often",
+   "outcome": "not found",
+   "tags": [],
+   "text": "Latest photo, not able to find",
+   "informative": true
+  },
+  {
+   "id": "R04",
+   "item": "Note/handwritten image",
+   "frustration": "Moderately frustrating",
+   "frequency": "Sometimes",
+   "outcome": "unclear",
+   "tags": [
+    "scrolling the timeline",
+    "document / text"
+   ],
+   "text": "I was looking for some information i captured and like \"Laundry service\", and I ended up scrolling through timeline.",
+   "informative": true
+  },
+  {
+   "id": "R05",
+   "item": "Medical document/prescription",
+   "frustration": "Slightly frustrating",
+   "frequency": "Sometimes",
+   "outcome": "found after effort",
+   "tags": [],
+   "text": "Honeymoon photo, search, found it",
+   "informative": true
+  },
+  {
+   "id": "R06",
+   "item": "Medical document/prescription",
+   "frustration": "Very frustrating",
+   "frequency": "Sometimes",
+   "outcome": "found after effort",
+   "tags": [
+    "scrolling the timeline",
+    "document / text"
+   ],
+   "text": "I was looking for an old prescription, i tried scrolling and searching. After a lot of time i did find it.",
+   "informative": true
+  },
+  {
+   "id": "R07",
+   "item": "Personal photo",
+   "frustration": "Slightly frustrating",
+   "frequency": "Sometimes",
+   "outcome": "found after effort",
+   "tags": [
+    "scrolling the timeline",
+    "searched by person"
+   ],
+   "text": "Was searching for a person, went to approx timeline and found it with people search",
+   "informative": true
+  },
+  {
+   "id": "R08",
+   "item": "Personal photo",
+   "frustration": "Moderately frustrating",
+   "frequency": "Sometimes",
+   "outcome": "not found",
+   "tags": [
+    "searched by date",
+    "searched by place",
+    "searched by person"
+   ],
+   "text": "I tried looking for a hill station family picture, I tried year and month, I didn’t get it.",
+   "informative": true
+  },
+  {
+   "id": "R09",
+   "item": "Personal photo",
+   "frustration": "Slightly frustrating",
+   "frequency": "Often",
+   "outcome": "found after effort",
+   "tags": [
+    "searched by date",
+    "searched by place"
+   ],
+   "text": "finding a party photo, Try finding by place name, year and month, i was able to find it",
+   "informative": true
+  },
+  {
+   "id": "R10",
+   "item": "Personal photo",
+   "frustration": "Extremely frustrating",
+   "frequency": "Sometimes",
+   "outcome": "unclear",
+   "tags": [],
+   "text": "I do not remember exactly now",
+   "informative": false
+  },
+  {
+   "id": "R11",
+   "item": "Screenshot",
+   "frustration": "Slightly frustrating",
+   "frequency": "Sometimes",
+   "outcome": "unclear",
+   "tags": [],
+   "text": "I don’t exactly remember",
+   "informative": false
+  },
+  {
+   "id": "R12",
+   "item": "Medical document/prescription",
+   "frustration": "Very frustrating",
+   "frequency": "Often",
+   "outcome": "unclear",
+   "tags": [
+    "document / text"
+   ],
+   "text": "College ID card",
+   "informative": false
+  },
+  {
+   "id": "R13",
+   "item": "Video",
+   "frustration": "Moderately frustrating",
+   "frequency": "Very often",
+   "outcome": "unclear",
+   "tags": [],
+   "text": "My old photos",
+   "informative": false
+  },
+  {
+   "id": "R14",
+   "item": "Screenshot",
+   "frustration": "Not frustrating",
+   "frequency": "Very often",
+   "outcome": "unclear",
+   "tags": [
+    "searched by person"
+   ],
+   "text": "My family photos",
+   "informative": false
+  },
+  {
+   "id": "R15",
+   "item": "Personal photo",
+   "frustration": "Slightly frustrating",
+   "frequency": "Sometimes",
+   "outcome": "not found",
+   "tags": [
+    "searched by date"
+   ],
+   "text": "looking for a college photo, tried finding by month/year, couldn't find it.",
+   "informative": true
+  },
+  {
+   "id": "R16",
+   "item": "Personal photo",
+   "frustration": "Slightly frustrating",
+   "frequency": "Rarely",
+   "outcome": "unclear",
+   "tags": [],
+   "text": "Can't remember",
+   "informative": false
+  },
+  {
+   "id": "R17",
+   "item": "Screenshot",
+   "frustration": "Moderately frustrating",
+   "frequency": "Very often",
+   "outcome": "not found",
+   "tags": [
+    "searched by date"
+   ],
+   "text": "I was trying to retrieve one of my old photos roughly taken around 6years ago. Which was a failure attempt",
+   "informative": true
+  },
+  {
+   "id": "R18",
+   "item": "Bill/receipt",
+   "frustration": "Slightly frustrating",
+   "frequency": "Often",
+   "outcome": "unclear",
+   "tags": [
+    "searched by person"
+   ],
+   "text": "Me and my friend rampwalking",
+   "informative": true
+  }
+ ],
+ "respondents": [
+  {
+   "id": "R01",
+   "freq": "Rarely",
+   "item": "Personal photo",
+   "clues": [
+    "Approximate time/period",
+    "Event/occasion",
+    "Word/name"
+   ],
+   "confidence": "Neither confident nor unsure",
+   "query": [
+    "A word or phrase visible in the image",
+    "A person's name",
+    "A place"
+   ],
+   "failed": "Sometimes",
+   "reason": "I don't remember enough details",
+   "next": "Search by person/place/date",
+   "hardest": [
+    "I don't usually search text inside images"
+   ],
+   "frustration": "Moderately frustrating",
+   "narrow": [
+    "Number/amount",
+    "Event"
+   ],
+   "interaction": "It should suggest better search terms",
+   "trust": "The result looks visually similar to what I remember",
+   "frustration_score": 3,
+   "failed_score": 2,
+   "confidence_score": 3,
+   "follow_up": true
+  },
+  {
+   "id": "R02",
+   "freq": "Very often",
+   "item": "Personal photo",
+   "clues": [
+    "Person/persons"
+   ],
+   "confidence": "Somewhat confident",
+   "query": [
+    "A description of what is in the image"
+   ],
+   "failed": "Sometimes",
+   "reason": "I don't remember enough details",
+   "next": "Try different keywords",
+   "hardest": [
+    "Names"
+   ],
+   "frustration": "Very frustrating",
+   "narrow": [
+    "Person"
+   ],
+   "interaction": "It should ask me questions to clarify",
+   "trust": "The matching person is highlighted",
+   "frustration_score": 4,
+   "failed_score": 2,
+   "confidence_score": 4,
+   "follow_up": true
+  },
+  {
+   "id": "R03",
+   "freq": "Very often",
+   "item": "Video",
+   "clues": [
+    "Word/name"
+   ],
+   "confidence": "Somewhat confident",
+   "query": [
+    "A description of what is in the image"
+   ],
+   "failed": "Frequently",
+   "reason": "I don't know what words to search",
+   "next": "Add more details",
+   "hardest": [
+    "Non-English text"
+   ],
+   "frustration": "Slightly frustrating",
+   "narrow": [
+    "Place"
+   ],
+   "interaction": "It should ask me questions to clarify",
+   "trust": "The matching person is highlighted",
+   "frustration_score": 2,
+   "failed_score": 3,
+   "confidence_score": 4,
+   "follow_up": true
+  },
+  {
+   "id": "R04",
+   "freq": "Sometimes",
+   "item": "Note/handwritten image",
+   "clues": [
+    "Event/occasion"
+   ],
+   "confidence": "Somewhat confident",
+   "query": [
+    "A description of what is in the image",
+    "I usually don't search; I scroll"
+   ],
+   "failed": "Sometimes",
+   "reason": "Search doesn't understand my description",
+   "next": "Browse the timeline",
+   "hardest": [
+    "Phone numbers",
+    "Addresses",
+    "Names"
+   ],
+   "frustration": "Moderately frustrating",
+   "narrow": [
+    "Specific word/text",
+    "Place"
+   ],
+   "interaction": "It should show related searches",
+   "trust": "I don't need an explanation as long as the result is correct",
+   "frustration_score": 3,
+   "failed_score": 2,
+   "confidence_score": 4,
+   "follow_up": true
+  },
+  {
+   "id": "R05",
+   "freq": "Sometimes",
+   "item": "Medical document/prescription",
+   "clues": [
+    "Person/persons"
+   ],
+   "confidence": "Very confident",
+   "query": [
+    "A description of what is in the image"
+   ],
+   "failed": "Sometimes",
+   "reason": "Similar items look almost identical",
+   "next": "Browse the timeline",
+   "hardest": [
+    "Dates"
+   ],
+   "frustration": "Slightly frustrating",
+   "narrow": [
+    "Approximate date/time",
+    "Place"
+   ],
+   "interaction": "It should ask me questions to clarify",
+   "trust": "The result looks visually similar to what I remember",
+   "frustration_score": 2,
+   "failed_score": 2,
+   "confidence_score": 5,
+   "follow_up": true
+  },
+  {
+   "id": "R06",
+   "freq": "Sometimes",
+   "item": "Medical document/prescription",
+   "clues": [
+    "Approximate time/period",
+    "How the image looked",
+    "Brand/shop/company",
+    "Word/name"
+   ],
+   "confidence": "Somewhat confident",
+   "query": [
+    "A description of what is in the image",
+    "A combination of several clues"
+   ],
+   "failed": "Frequently",
+   "reason": "I can't remember approximately when it was saved",
+   "next": "Browse the timeline",
+   "hardest": [
+    "I don't usually search text inside images"
+   ],
+   "frustration": "Very frustrating",
+   "narrow": [
+    "Source (WhatsApp, Camera, Screenshot, etc.)",
+    "Approximate date/time",
+    "Image type"
+   ],
+   "interaction": "It should show related searches",
+   "trust": "Google explains why the item matched",
+   "frustration_score": 4,
+   "failed_score": 3,
+   "confidence_score": 4,
+   "follow_up": false
+  },
+  {
+   "id": "R07",
+   "freq": "Sometimes",
+   "item": "Personal photo",
+   "clues": [
+    "Event/occasion",
+    "Person/persons",
+    "Place"
+   ],
+   "confidence": "Somewhat confident",
+   "query": [
+    "A date/month/year",
+    "A person's name",
+    "A place"
+   ],
+   "failed": "Rarely",
+   "reason": "I don't know what words to search",
+   "next": "Add more details",
+   "hardest": [
+    "I don't usually search text inside images"
+   ],
+   "frustration": "Slightly frustrating",
+   "narrow": [
+    "Approximate date/time",
+    "Image type",
+    "Person",
+    "Event"
+   ],
+   "interaction": "It should ask me questions to clarify",
+   "trust": "The matching person is highlighted",
+   "frustration_score": 2,
+   "failed_score": 1,
+   "confidence_score": 4,
+   "follow_up": false
+  },
+  {
+   "id": "R08",
+   "freq": "Sometimes",
+   "item": "Personal photo",
+   "clues": [
+    "Event/occasion",
+    "Person/persons",
+    "Place"
+   ],
+   "confidence": "Somewhat confident",
+   "query": [
+    "A date/month/year",
+    "A number/amount"
+   ],
+   "failed": "Sometimes",
+   "reason": "Text inside the image isn't recognised",
+   "next": "Add more details",
+   "hardest": [
+    "Addresses"
+   ],
+   "frustration": "Moderately frustrating",
+   "narrow": [
+    "Image type",
+    "Event"
+   ],
+   "interaction": "It should show related searches",
+   "trust": "The result looks visually similar to what I remember",
+   "frustration_score": 3,
+   "failed_score": 2,
+   "confidence_score": 4,
+   "follow_up": true
+  },
+  {
+   "id": "R09",
+   "freq": "Often",
+   "item": "Personal photo",
+   "clues": [
+    "Event/occasion",
+    "Person/persons"
+   ],
+   "confidence": "Somewhat confident",
+   "query": [
+    "A date/month/year",
+    "A place"
+   ],
+   "failed": "Sometimes",
+   "reason": "I don't remember enough details",
+   "next": "Add more details",
+   "hardest": [
+    "Phone numbers",
+    "Names"
+   ],
+   "frustration": "Slightly frustrating",
+   "narrow": [
+    "Approximate date/time",
+    "Place"
+   ],
+   "interaction": "It should ask me questions to clarify",
+   "trust": "The matching person is highlighted",
+   "frustration_score": 2,
+   "failed_score": 2,
+   "confidence_score": 4,
+   "follow_up": true
+  },
+  {
+   "id": "R10",
+   "freq": "Sometimes",
+   "item": "Personal photo",
+   "clues": [
+    "Approximate time/period",
+    "Event/occasion",
+    "Person/persons"
+   ],
+   "confidence": "Somewhat unsure",
+   "query": [
+    "I usually don't search; I scroll"
+   ],
+   "failed": "Frequently",
+   "reason": "I can't remember approximately when it was saved",
+   "next": "Check an album/folder",
+   "hardest": [
+    "I don't usually search text inside images"
+   ],
+   "frustration": "Extremely frustrating",
+   "narrow": [
+    "Source (WhatsApp, Camera, Screenshot, etc.)",
+    "Person",
+    "Place"
+   ],
+   "interaction": "It should ask me questions to clarify",
+   "trust": "I don't need an explanation as long as the result is correct",
+   "frustration_score": 5,
+   "failed_score": 3,
+   "confidence_score": 2,
+   "follow_up": false
+  },
+  {
+   "id": "R11",
+   "freq": "Sometimes",
+   "item": "Screenshot",
+   "clues": [
+    "Approximate time/period",
+    "Event/occasion",
+    "Person/persons"
+   ],
+   "confidence": "Somewhat confident",
+   "query": [
+    "A description of what is in the image",
+    "A date/month/year",
+    "A person's name",
+    "A place"
+   ],
+   "failed": "Rarely",
+   "reason": "I can't remember approximately when it was saved",
+   "next": "Search by person/place/date",
+   "hardest": [
+    "I don't usually search text inside images"
+   ],
+   "frustration": "Slightly frustrating",
+   "narrow": [
+    "Source (WhatsApp, Camera, Screenshot, etc.)",
+    "Approximate date/time",
+    "Person"
+   ],
+   "interaction": "It should automatically suggest filters",
+   "trust": "The matching person is highlighted",
+   "frustration_score": 2,
+   "failed_score": 1,
+   "confidence_score": 4,
+   "follow_up": true
+  },
+  {
+   "id": "R12",
+   "freq": "Often",
+   "item": "Medical document/prescription",
+   "clues": [
+    "Object visible in the image",
+    "How the image looked",
+    "Event/occasion",
+    "Person/persons",
+    "Place"
+   ],
+   "confidence": "Somewhat unsure",
+   "query": [
+    "A word or phrase visible in the image",
+    "A description of what is in the image",
+    "A person's name",
+    "A place"
+   ],
+   "failed": "Frequently",
+   "reason": "I don't remember enough details",
+   "next": "Search by person/place/date",
+   "hardest": [
+    "Invoice/bill numbers",
+    "Handwritten text",
+    "Amounts/prices",
+    "Phone numbers",
+    "Addresses",
+    "Dates"
+   ],
+   "frustration": "Very frustrating",
+   "narrow": [
+    "Source (WhatsApp, Camera, Screenshot, etc.)",
+    "Objects in the image",
+    "Specific word/text",
+    "Person",
+    "Place",
+    "Event"
+   ],
+   "interaction": "It should ask me questions to clarify",
+   "trust": "The matching word/text is highlighted",
+   "frustration_score": 4,
+   "failed_score": 3,
+   "confidence_score": 2,
+   "follow_up": false
+  },
+  {
+   "id": "R13",
+   "freq": "Very often",
+   "item": "Video",
+   "clues": [
+    "Event/occasion"
+   ],
+   "confidence": "Neither confident nor unsure",
+   "query": [
+    "A person's name"
+   ],
+   "failed": "Sometimes",
+   "reason": "I don't remember enough details",
+   "next": "Add more details",
+   "hardest": [
+    "Addresses"
+   ],
+   "frustration": "Moderately frustrating",
+   "narrow": [
+    "Person"
+   ],
+   "interaction": "It should ask me questions to clarify",
+   "trust": "The matching word/text is highlighted",
+   "frustration_score": 3,
+   "failed_score": 2,
+   "confidence_score": 3,
+   "follow_up": true
+  },
+  {
+   "id": "R14",
+   "freq": "Very often",
+   "item": "Screenshot",
+   "clues": [
+    "Person/persons"
+   ],
+   "confidence": "Very confident",
+   "query": [
+    "A number/amount"
+   ],
+   "failed": "Frequently",
+   "reason": "Search doesn't understand my description",
+   "next": "Try different keywords",
+   "hardest": [
+    "Amounts/prices"
+   ],
+   "frustration": "Not frustrating",
+   "narrow": [
+    "Place"
+   ],
+   "interaction": "It should suggest better search terms",
+   "trust": "The matching word/text is highlighted",
+   "frustration_score": 1,
+   "failed_score": 3,
+   "confidence_score": 5,
+   "follow_up": true
+  },
+  {
+   "id": "R15",
+   "freq": "Sometimes",
+   "item": "Personal photo",
+   "clues": [
+    "Approximate time/period",
+    "Person/persons",
+    "Place"
+   ],
+   "confidence": "Somewhat confident",
+   "query": [
+    "A description of what is in the image",
+    "A person's name"
+   ],
+   "failed": "Sometimes",
+   "reason": "I don't know what words to search",
+   "next": "Add more details",
+   "hardest": [
+    "Phone numbers",
+    "Names"
+   ],
+   "frustration": "Slightly frustrating",
+   "narrow": [
+    "Approximate date/time",
+    "Person",
+    "Place"
+   ],
+   "interaction": "It should ask me questions to clarify",
+   "trust": "The matching person is highlighted",
+   "frustration_score": 2,
+   "failed_score": 2,
+   "confidence_score": 4,
+   "follow_up": true
+  },
+  {
+   "id": "R16",
+   "freq": "Rarely",
+   "item": "Personal photo",
+   "clues": [
+    "Object visible in the image",
+    "Approximate time/period",
+    "Person/persons"
+   ],
+   "confidence": "Somewhat unsure",
+   "query": [
+    "A description of what is in the image"
+   ],
+   "failed": "Rarely",
+   "reason": "Text inside the image isn't recognised",
+   "next": "Browse the timeline",
+   "hardest": [
+    "Non-English text",
+    "Addresses"
+   ],
+   "frustration": "Slightly frustrating",
+   "narrow": [
+    "Source (WhatsApp, Camera, Screenshot, etc.)",
+    "Approximate date/time",
+    "Specific word/text"
+   ],
+   "interaction": "It should show related searches",
+   "trust": "The matching date/place is shown",
+   "frustration_score": 2,
+   "failed_score": 1,
+   "confidence_score": 2,
+   "follow_up": false
+  },
+  {
+   "id": "R17",
+   "freq": "Very often",
+   "item": "Screenshot",
+   "clues": [
+    "Approximate time/period",
+    "Event/occasion",
+    "Person/persons"
+   ],
+   "confidence": "Neither confident nor unsure",
+   "query": [
+    "A date/month/year",
+    "A person's name",
+    "A place"
+   ],
+   "failed": "Sometimes",
+   "reason": "I get too many unrelated results",
+   "next": "Try different keywords",
+   "hardest": [
+    "Handwritten text",
+    "Names",
+    "Dates"
+   ],
+   "frustration": "Moderately frustrating",
+   "narrow": [
+    "Person",
+    "Place",
+    "Event"
+   ],
+   "interaction": "It should suggest better search terms",
+   "trust": "The matching word/text is highlighted",
+   "frustration_score": 3,
+   "failed_score": 2,
+   "confidence_score": 3,
+   "follow_up": false
+  },
+  {
+   "id": "R18",
+   "freq": "Often",
+   "item": "Bill/receipt",
+   "clues": [
+    "Person/persons",
+    "Place"
+   ],
+   "confidence": "Somewhat confident",
+   "query": [
+    "A word or phrase visible in the image",
+    "A combination of several clues"
+   ],
+   "failed": "Sometimes",
+   "reason": "I don't know what words to search",
+   "next": "Add more details",
+   "hardest": [
+    "Amounts/prices",
+    "Dates"
+   ],
+   "frustration": "Slightly frustrating",
+   "narrow": [
+    "Approximate date/time",
+    "Image type"
+   ],
+   "interaction": "It should show related searches",
+   "trust": "The matching date/place is shown",
+   "frustration_score": 2,
+   "failed_score": 2,
+   "confidence_score": 4,
+   "follow_up": false
+  }
+ ]
+}

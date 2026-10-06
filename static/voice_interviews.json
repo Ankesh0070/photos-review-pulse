@@ -1,0 +1,841 @@
+{
+ "meta": {
+  "source": "Primary research — voice interviews (call transcripts)",
+  "generated_at": "2026-10-05T16:14:54",
+  "interviews": 3,
+  "guide_questions": 21,
+  "anonymised": true,
+  "method": "Transcripts have no speaker labels; answers were separated from the interviewer’s fixed question guide and coded by hand. All quotes are verbatim and machine-verified against the transcript.",
+  "caveat": "Only 3 interviews — qualitative evidence for patterns and wording, not for percentages. One call (V1) had poor audio."
+ },
+ "guide": [
+  {
+   "id": "library",
+   "label": "Library size & how far back it goes"
+  },
+  {
+   "id": "frequency",
+   "label": "How often they look for an old photo vs. just browsing"
+  },
+  {
+   "id": "last_search",
+   "label": "Last time they searched for something specific — what and why"
+  },
+  {
+   "id": "first_memory",
+   "label": "A photo they struggled to find — first thing they remember about it"
+  },
+  {
+   "id": "confident",
+   "label": "What details they are confident / fuzzy about"
+  },
+  {
+   "id": "when",
+   "label": "Roughly when it was taken"
+  },
+  {
+   "id": "who",
+   "label": "Who else was there / who took it"
+  },
+  {
+   "id": "story",
+   "label": "Story or reason it stuck in memory"
+  },
+  {
+   "id": "first_action",
+   "label": "What they typed or did first"
+  },
+  {
+   "id": "would_type",
+   "label": "What they would type if searching now"
+  },
+  {
+   "id": "attempts",
+   "label": "More than one search? What changed between attempts"
+  },
+  {
+   "id": "browsing",
+   "label": "Tried browsing (date / album / location) instead of searching"
+  },
+  {
+   "id": "give_up",
+   "label": "At what point they gave up or kept trying"
+  },
+  {
+   "id": "closeness",
+   "label": "Were results close to what they remembered"
+  },
+  {
+   "id": "decide",
+   "label": "How they decided a result was the right photo"
+  },
+  {
+   "id": "almost",
+   "label": "Results almost right but could not confirm — what next"
+  },
+  {
+   "id": "luck",
+   "label": "Found it by pure luck / accident after search failed"
+  },
+  {
+   "id": "other_methods",
+   "label": "Other ways to find an old photo (albums, favorites, people, other apps)"
+  },
+  {
+   "id": "feeling",
+   "label": "How it felt when they could not find a photo that exists"
+  },
+  {
+   "id": "wish",
+   "label": "If Google Photos could help describe it the way they remember — what would they say"
+  },
+  {
+   "id": "unfound",
+   "label": "A photo still not found / willing to try together"
+  }
+ ],
+ "interviews": [
+  {
+   "id": "V1",
+   "profile": {
+    "library_n": 10000,
+    "library_label": "10,000+ photos",
+    "span_label": "not stated",
+    "frequency": "Rarely / sometimes",
+    "frequency_level": 1,
+    "last_item": "A document",
+    "struggled_item": "Honeymoon-style trip photo (water villa, Maldives)",
+    "outcome": "Found in one search",
+    "outcome_code": "found",
+    "emotion": "Sad (photo would be lost)",
+    "emotion_code": "sad"
+   },
+   "audio": "Poor — voice repeatedly broke up; several answers partly lost.",
+   "words": 992,
+   "qa": [
+    {
+     "id": "library",
+     "question": "Library size & how far back it goes",
+     "answer": "Google Photos will be more than around 10,000 photos."
+    },
+    {
+     "id": "frequency",
+     "question": "How often they look for an old photo vs. just browsing",
+     "answer": "Not that much. Sometimes."
+    },
+    {
+     "id": "last_search",
+     "question": "Last time they searched for something specific — what and why",
+     "answer": "I was trying to find some document."
+    },
+    {
+     "id": "first_memory",
+     "question": "A photo they struggled to find — first thing they remember about it",
+     "answer": "So there is a photo of of my trip with my wife."
+    },
+    {
+     "id": "confident",
+     "question": "What details they are confident / fuzzy about",
+     "answer": null
+    },
+    {
+     "id": "when",
+     "question": "Roughly when it was taken",
+     "answer": "Around 6 years back."
+    },
+    {
+     "id": "who",
+     "question": "Who else was there / who took it",
+     "answer": null
+    },
+    {
+     "id": "story",
+     "question": "Story or reason it stuck in memory",
+     "answer": "a photo on this beach side in Maldives with the very crystal blue very clear and it is photo of a water villa"
+    },
+    {
+     "id": "first_action",
+     "question": "What they typed or did first",
+     "answer": "I try to search by dates."
+    },
+    {
+     "id": "would_type",
+     "question": "What they would type if searching now",
+     "answer": "like in this case I will search by location, Maldives"
+    },
+    {
+     "id": "attempts",
+     "question": "More than one search? What changed between attempts",
+     "answer": "No, in one search it came."
+    },
+    {
+     "id": "browsing",
+     "question": "Tried browsing (date / album / location) instead of searching",
+     "answer": "So I also try by dates also."
+    },
+    {
+     "id": "give_up",
+     "question": "At what point they gave up or kept trying",
+     "answer": "Actually, I got the photos so I did not like stop trying as such."
+    },
+    {
+     "id": "closeness",
+     "question": "Were results close to what they remembered",
+     "answer": "Since it gave all the photos which I wanted, so it was kind of a good search."
+    },
+    {
+     "id": "decide",
+     "question": "How they decided a result was the right photo",
+     "answer": "When I searched I got around 30, 40 photos out of which I could easily scroll and see. So it was not a difficult task."
+    },
+    {
+     "id": "almost",
+     "question": "Results almost right but could not confirm — what next",
+     "answer": "When I check some photos I am sure that what I am searching."
+    },
+    {
+     "id": "luck",
+     "question": "Found it by pure luck / accident after search failed",
+     "answer": null
+    },
+    {
+     "id": "other_methods",
+     "question": "Other ways to find an old photo (albums, favorites, people, other apps)",
+     "answer": "I try to search through WhatsApp."
+    },
+    {
+     "id": "feeling",
+     "question": "How it felt when they could not find a photo that exists",
+     "answer": "Definitely it will be a bit sad because the photo is lost."
+    },
+    {
+     "id": "wish",
+     "question": "If Google Photos could help describe it the way they remember — what would they say",
+     "answer": "Photo of me with my wife holding her into my arms with beach behind the Maldives beach behind this one."
+    },
+    {
+     "id": "unfound",
+     "question": "A photo still not found / willing to try together",
+     "answer": "I haven't tried we can try."
+    }
+   ]
+  },
+  {
+   "id": "V2",
+   "profile": {
+    "library_n": 5050,
+    "library_label": "~5,000 photos + 50–60 videos",
+    "span_label": "~12 years",
+    "frequency": "Rarely (about every 2 months)",
+    "frequency_level": 1,
+    "last_item": "An old college-days photo",
+    "struggled_item": "An important photo that was never backed up",
+    "outcome": "Found some; one lost because it was never backed up",
+    "outcome_code": "mixed",
+    "emotion": "Sad / disappointed",
+    "emotion_code": "sad"
+   },
+   "audio": "Good.",
+   "words": 1495,
+   "qa": [
+    {
+     "id": "library",
+     "question": "Library size & how far back it goes",
+     "answer": "It's about 5000 photos and maybe 50 to 60 videos. And it's about like 12 years."
+    },
+    {
+     "id": "frequency",
+     "question": "How often they look for an old photo vs. just browsing",
+     "answer": "It's rarely maybe in two months I will go and I start browsing because there is no so much photos."
+    },
+    {
+     "id": "last_search",
+     "question": "Last time they searched for something specific — what and why",
+     "answer": "I was trying to find a photo like my fresher's time in 2019."
+    },
+    {
+     "id": "first_memory",
+     "question": "A photo they struggled to find — first thing they remember about it",
+     "answer": "I had to find a photo which I don't know which event that was but it was my college and that was a really cool photo."
+    },
+    {
+     "id": "confident",
+     "question": "What details they are confident / fuzzy about",
+     "answer": "I don't exactly remember when which month but yeah I had remembered this was in 2020."
+    },
+    {
+     "id": "when",
+     "question": "Roughly when it was taken",
+     "answer": "Nah, I can't remember something like that."
+    },
+    {
+     "id": "who",
+     "question": "Who else was there / who took it",
+     "answer": "Nah, I don't remember who was taken it"
+    },
+    {
+     "id": "story",
+     "question": "Story or reason it stuck in memory",
+     "answer": "Unfortunately I can't find it because that time Google Photo didn't get the backup."
+    },
+    {
+     "id": "first_action",
+     "question": "What they typed or did first",
+     "answer": "I didn't type I go to in my photos"
+    },
+    {
+     "id": "would_type",
+     "question": "What they would type if searching now",
+     "answer": "I would type whatever the photo I want to find like the dress code first I will type the year which year I want to find the photo. If I remember month I will tell them and I will give little bit of description."
+    },
+    {
+     "id": "attempts",
+     "question": "More than one search? What changed between attempts",
+     "answer": "If I don't find after searching then I will go for the manually searching."
+    },
+    {
+     "id": "browsing",
+     "question": "Tried browsing (date / album / location) instead of searching",
+     "answer": "When I don't found via search I will start browsing."
+    },
+    {
+     "id": "give_up",
+     "question": "At what point they gave up or kept trying",
+     "answer": "If I don't find it that means the Google didn't get backup of that photo."
+    },
+    {
+     "id": "closeness",
+     "question": "Were results close to what they remembered",
+     "answer": "Somewhere in between."
+    },
+    {
+     "id": "decide",
+     "question": "How they decided a result was the right photo",
+     "answer": "Because I know I am finding what photo. That's I have clearance."
+    },
+    {
+     "id": "almost",
+     "question": "Results almost right but could not confirm — what next",
+     "answer": "No. That's because I took very less photos of mine."
+    },
+    {
+     "id": "luck",
+     "question": "Found it by pure luck / accident after search failed",
+     "answer": "Yeah, not by pure luck, yeah sometimes I found that photo then I remember yeah that was my adventure."
+    },
+    {
+     "id": "other_methods",
+     "question": "Other ways to find an old photo (albums, favorites, people, other apps)",
+     "answer": "In Facebook memories, every year."
+    },
+    {
+     "id": "feeling",
+     "question": "How it felt when they could not find a photo that exists",
+     "answer": "I mean it is sad because guy like me I took very less photos actually."
+    },
+    {
+     "id": "wish",
+     "question": "If Google Photos could help describe it the way they remember — what would they say",
+     "answer": "The only thing I want to feel they must have some kind of AI search which helps to find people. Like I I wear this shirt and that pant, this color of shirt, this type of pant and there is some photos maybe around four to five find a photo of that me and Google will find."
+    },
+    {
+     "id": "unfound",
+     "question": "A photo still not found / willing to try together",
+     "answer": "As I told you I have very less photos."
+    }
+   ]
+  },
+  {
+   "id": "V3",
+   "profile": {
+    "library_n": 550,
+    "library_label": "500–600 photos",
+    "span_label": "2–3 years",
+    "frequency": "Monthly / every ~15 days",
+    "frequency_level": 3,
+    "last_item": "Family photos",
+    "struggled_item": "Passport-size photos",
+    "outcome": "Found after several attempts",
+    "outcome_code": "found-effort",
+    "emotion": "Annoyed / frustrated",
+    "emotion_code": "frustrated"
+   },
+   "audio": "Good (minor repeats).",
+   "words": 1135,
+   "qa": [
+    {
+     "id": "library",
+     "question": "Library size & how far back it goes",
+     "answer": "Around 500 to 600 photos and goes to around 2 to 3 years."
+    },
+    {
+     "id": "frequency",
+     "question": "How often they look for an old photo vs. just browsing",
+     "answer": "Around once in a month or 15 days."
+    },
+    {
+     "id": "last_search",
+     "question": "Last time they searched for something specific — what and why",
+     "answer": "I was searching for some family photos. We had clicked when we were out."
+    },
+    {
+     "id": "first_memory",
+     "question": "A photo they struggled to find — first thing they remember about it",
+     "answer": "I searched some of my like passport size photos which were saved."
+    },
+    {
+     "id": "confident",
+     "question": "What details they are confident / fuzzy about",
+     "answer": "Scrolling down without any information and searching in photos including the old photos a bit tricky task. So I just try to do some kind of a filter search to detect the photos."
+    },
+    {
+     "id": "when",
+     "question": "Roughly when it was taken",
+     "answer": "Not exactly like for an official purpose I guess."
+    },
+    {
+     "id": "who",
+     "question": "Who else was there / who took it",
+     "answer": "Some other person has taken it, random person has taken it. And it was mine photo only."
+    },
+    {
+     "id": "story",
+     "question": "Story or reason it stuck in memory",
+     "answer": "No not too much memory attached to it. It was just an casual photograph."
+    },
+    {
+     "id": "first_action",
+     "question": "What they typed or did first",
+     "answer": "Search for like a screenshot I have taken for that photograph. So I just searched it in the screenshot folder"
+    },
+    {
+     "id": "would_type",
+     "question": "What they would type if searching now",
+     "answer": "I will type my name a particular folder screenshot or old pictures of particular area"
+    },
+    {
+     "id": "attempts",
+     "question": "More than one search? What changed between attempts",
+     "answer": "in the first attempt I was not able to get so I try multiple times to search the photograph."
+    },
+    {
+     "id": "browsing",
+     "question": "Tried browsing (date / album / location) instead of searching",
+     "answer": "Started scrolling it."
+    },
+    {
+     "id": "give_up",
+     "question": "At what point they gave up or kept trying",
+     "answer": "scrolling through a huge amount of photos is a bit tricky task because sometimes you might not find a particular photograph and huge amount of data is present so that's a little frustrating."
+    },
+    {
+     "id": "closeness",
+     "question": "Were results close to what they remembered",
+     "answer": "it went to strictly what I was searching."
+    },
+    {
+     "id": "decide",
+     "question": "How they decided a result was the right photo",
+     "answer": "maybe through the timeline of the photograph I can recall that this is the correct photograph"
+    },
+    {
+     "id": "almost",
+     "question": "Results almost right but could not confirm — what next",
+     "answer": "I try to search it through the other locations as well like suppose in my WhatsApp or any other social media platform I search it through there and confirm it whether it is like relevant what I was looking for."
+    },
+    {
+     "id": "luck",
+     "question": "Found it by pure luck / accident after search failed",
+     "answer": "Many of the times I found it like pure luck like I was scrolling and I found the photograph."
+    },
+    {
+     "id": "other_methods",
+     "question": "Other ways to find an old photo (albums, favorites, people, other apps)",
+     "answer": "if I have clicked some pictures on 3rd of October last year so I you know get a notification on the Google Photos"
+    },
+    {
+     "id": "feeling",
+     "question": "How it felt when they could not find a photo that exists",
+     "answer": "It's annoying if you are searching for something to fall from 500 to 600 photographs and you are not able to find it. So it annoys you and also it's a little bit of frustrating for any human."
+    },
+    {
+     "id": "wish",
+     "question": "If Google Photos could help describe it the way they remember — what would they say",
+     "answer": "Like it would have based on events like got some important events or dates or locations we can consider it can save through a particular location that this photo was clicked."
+    },
+    {
+     "id": "unfound",
+     "question": "A photo still not found / willing to try together",
+     "answer": "No I don't think so I have any other photo which I am finding to find right now."
+    }
+   ]
+  }
+ ],
+ "themes": [
+  {
+   "id": "cross_app",
+   "label": "Checking other apps (WhatsApp, Facebook, social media)",
+   "definition": "Look for or confirm the photo outside Google Photos.",
+   "support": {
+    "V1": 2,
+    "V2": 2,
+    "V3": 2
+   },
+   "n_interviews": 3,
+   "n_explicit": 3,
+   "interviewees": [
+    "V1",
+    "V2",
+    "V3"
+   ],
+   "quotes": [
+    {
+     "iv": "V1",
+     "quote": "I try to search through WhatsApp."
+    },
+    {
+     "iv": "V2",
+     "quote": "In Facebook memories, every year."
+    },
+    {
+     "iv": "V3",
+     "quote": "in my WhatsApp or any other social media platform I search it through there and confirm it whether it is like relevant what I was looking for"
+    }
+   ]
+  },
+  {
+   "id": "emotion",
+   "label": "Emotional cost of a missing photo",
+   "definition": "Sadness, disappointment or annoyance when a known photo can’t be found.",
+   "support": {
+    "V1": 2,
+    "V2": 2,
+    "V3": 2
+   },
+   "n_interviews": 3,
+   "n_explicit": 3,
+   "interviewees": [
+    "V1",
+    "V2",
+    "V3"
+   ],
+   "quotes": [
+    {
+     "iv": "V1",
+     "quote": "Definitely it will be a bit sad because the photo is lost."
+    },
+    {
+     "iv": "V2",
+     "quote": "I mean it is sad because guy like me I took very less photos actually."
+    },
+    {
+     "iv": "V3",
+     "quote": "So it annoys you and also it's a little bit of frustrating for any human."
+    }
+   ]
+  },
+  {
+   "id": "describe_wish",
+   "label": "Wants to describe the photo the way they remember it",
+   "definition": "Wishes for description-, appearance-, event- or location-based retrieval.",
+   "support": {
+    "V1": 2,
+    "V2": 2,
+    "V3": 2
+   },
+   "n_interviews": 3,
+   "n_explicit": 3,
+   "interviewees": [
+    "V1",
+    "V2",
+    "V3"
+   ],
+   "quotes": [
+    {
+     "iv": "V1",
+     "quote": "Photo of me with my wife holding her into my arms with beach behind the Maldives beach behind this one."
+    },
+    {
+     "iv": "V2",
+     "quote": "I wear this shirt and that pant, this color of shirt, this type of pant and there is some photos maybe around four to five find a photo of that me and Google will find"
+    },
+    {
+     "iv": "V3",
+     "quote": "Like it would have based on events like got some important events or dates or locations"
+    }
+   ]
+  },
+  {
+   "id": "verify_recall",
+   "label": "Verifies a result by memory/timeline, not by explanation",
+   "definition": "Decides “this is the one” from their own recall of when/where.",
+   "support": {
+    "V1": 2,
+    "V2": 2,
+    "V3": 2
+   },
+   "n_interviews": 3,
+   "n_explicit": 3,
+   "interviewees": [
+    "V1",
+    "V2",
+    "V3"
+   ],
+   "quotes": [
+    {
+     "iv": "V1",
+     "quote": "When I searched I got around 30, 40 photos out of which I could easily scroll and see. So it was not a difficult task."
+    },
+    {
+     "iv": "V2",
+     "quote": "Because I know I am finding what photo. That's I have clearance."
+    },
+    {
+     "iv": "V3",
+     "quote": "maybe through the timeline of the photograph I can recall that this is the correct photograph"
+    }
+   ]
+  },
+  {
+   "id": "time_place",
+   "label": "Start from a time or place cue",
+   "definition": "First move is a year/date or a location, not a free-text description.",
+   "support": {
+    "V1": 2,
+    "V2": 2,
+    "V3": 1
+   },
+   "n_interviews": 3,
+   "n_explicit": 2,
+   "interviewees": [
+    "V1",
+    "V2",
+    "V3"
+   ],
+   "quotes": [
+    {
+     "iv": "V1",
+     "quote": "I try to search by dates."
+    },
+    {
+     "iv": "V1",
+     "quote": "like in this case I will search by location, Maldives"
+    },
+    {
+     "iv": "V2",
+     "quote": "I will type the year which year I want to find the photo. If I remember month I will tell them and I will give little bit of description."
+    },
+    {
+     "iv": "V3",
+     "quote": "old pictures of particular area"
+    }
+   ]
+  },
+  {
+   "id": "scroll_fallback",
+   "label": "When search fails, scroll the timeline",
+   "definition": "Manual browsing by date/year is the fallback.",
+   "support": {
+    "V1": 1,
+    "V2": 2,
+    "V3": 2
+   },
+   "n_interviews": 3,
+   "n_explicit": 2,
+   "interviewees": [
+    "V1",
+    "V2",
+    "V3"
+   ],
+   "quotes": [
+    {
+     "iv": "V2",
+     "quote": "When I don't found via search I will start browsing."
+    },
+    {
+     "iv": "V2",
+     "quote": "So then I start scrolling whole year because I don't have too much photos of mine."
+    },
+    {
+     "iv": "V3",
+     "quote": "Started scrolling it."
+    },
+    {
+     "iv": "V1",
+     "quote": "So I also try by dates also."
+    }
+   ]
+  },
+  {
+   "id": "resurface",
+   "label": "Relying on “memories” / on-this-day resurfacing",
+   "definition": "Photos resurface through memory notifications rather than search.",
+   "support": {
+    "V1": 0,
+    "V2": 2,
+    "V3": 2
+   },
+   "n_interviews": 2,
+   "n_explicit": 2,
+   "interviewees": [
+    "V2",
+    "V3"
+   ],
+   "quotes": [
+    {
+     "iv": "V3",
+     "quote": "if I have clicked some pictures on 3rd of October last year so I you know get a notification on the Google Photos"
+    },
+    {
+     "iv": "V2",
+     "quote": "In Facebook memories, every year."
+    }
+   ]
+  },
+  {
+   "id": "luck",
+   "label": "Finding it by luck / serendipity",
+   "definition": "Found the photo accidentally while scrolling or reminiscing.",
+   "support": {
+    "V1": 0,
+    "V2": 1,
+    "V3": 2
+   },
+   "n_interviews": 2,
+   "n_explicit": 1,
+   "interviewees": [
+    "V2",
+    "V3"
+   ],
+   "quotes": [
+    {
+     "iv": "V3",
+     "quote": "Many of the times I found it like pure luck like I was scrolling and I found the photograph."
+    },
+    {
+     "iv": "V2",
+     "quote": "sometimes I found that photo then I remember yeah that was my adventure"
+    }
+   ]
+  },
+  {
+   "id": "volume",
+   "label": "Large volume makes finding harder",
+   "definition": "Pain scales with the amount of photos to scroll through.",
+   "support": {
+    "V1": 0,
+    "V2": 1,
+    "V3": 2
+   },
+   "n_interviews": 2,
+   "n_explicit": 1,
+   "interviewees": [
+    "V2",
+    "V3"
+   ],
+   "quotes": [
+    {
+     "iv": "V3",
+     "quote": "scrolling through a huge amount of photos is a bit tricky task because sometimes you might not find a particular photograph and huge amount of data is present so that's a little frustrating."
+    },
+    {
+     "iv": "V2",
+     "quote": "It's for them who have to who took too many pictures."
+    }
+   ]
+  },
+  {
+   "id": "docs_screens",
+   "label": "Documents & screenshot-type items are a special case",
+   "definition": "Looking for documents, ID photos or items saved via screenshots/folders.",
+   "support": {
+    "V1": 1,
+    "V2": 0,
+    "V3": 2
+   },
+   "n_interviews": 2,
+   "n_explicit": 1,
+   "interviewees": [
+    "V1",
+    "V3"
+   ],
+   "quotes": [
+    {
+     "iv": "V1",
+     "quote": "I was trying to find some document."
+    },
+    {
+     "iv": "V3",
+     "quote": "I searched some of my like passport size photos which were saved."
+    },
+    {
+     "iv": "V3",
+     "quote": "So I just searched it in the screenshot folder"
+    }
+   ]
+  },
+  {
+   "id": "backup_gap",
+   "label": "Photo missing because it was never backed up",
+   "definition": "“Not found” was really “not backed up”, not a search failure.",
+   "support": {
+    "V1": 0,
+    "V2": 2,
+    "V3": 0
+   },
+   "n_interviews": 1,
+   "n_explicit": 1,
+   "interviewees": [
+    "V2"
+   ],
+   "quotes": [
+    {
+     "iv": "V2",
+     "quote": "Unfortunately I can't find it because that time Google Photo didn't get the backup."
+    },
+    {
+     "iv": "V2",
+     "quote": "If I don't find it that means the Google didn't get backup of that photo."
+    }
+   ]
+  }
+ ],
+ "feature_ideas": [
+  {
+   "iv": "V2",
+   "quote": "The only thing I want to feel they must have some kind of AI search which helps to find people.",
+   "idea": "AI search by appearance (e.g. clothing colour/type), not only by face"
+  },
+  {
+   "iv": "V2",
+   "quote": "I am asking to create a RAG bot into Google Photos.",
+   "idea": "Conversational (RAG-style) retrieval bot inside Google Photos"
+  },
+  {
+   "iv": "V3",
+   "quote": "Like it would have based on events like got some important events or dates or locations",
+   "idea": "Retrieval by event, date and location"
+  },
+  {
+   "iv": "V1",
+   "quote": "Photo of me with my wife holding her into my arms with beach behind the Maldives beach behind this one.",
+   "idea": "Describe the scene in natural language (people + setting)"
+  }
+ ],
+ "summary": {
+  "explicit_by_theme": [
+   "Checking other apps (WhatsApp, Facebook, social media): 3/3",
+   "Emotional cost of a missing photo: 3/3",
+   "Wants to describe the photo the way they remember it: 3/3",
+   "Verifies a result by memory/timeline, not by explanation: 3/3",
+   "Start from a time or place cue: 3/3",
+   "When search fails, scroll the timeline: 3/3",
+   "Relying on “memories” / on-this-day resurfacing: 2/3",
+   "Finding it by luck / serendipity: 2/3",
+   "Large volume makes finding harder: 2/3",
+   "Documents & screenshot-type items are a special case: 2/3",
+   "Photo missing because it was never backed up: 1/3"
+  ],
+  "median_library": 5050
+ }
+}
