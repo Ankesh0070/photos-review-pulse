@@ -504,6 +504,33 @@
     <div class="card ds-summary" id="dsSummary" style="margin-top:14px"></div>
   </section>
 
+  <!-- ============ SOLUTION (built) ============ -->
+  <section id="solution">
+    <p class="eyebrow">The solution · built and playable</p>
+    <div class="card sol-wrap">
+      <div class="sol-top">
+        <div><h3 style="margin:0 0 4px">Find photos the way you remember them</h3>
+          <p class="cardsub" style="margin:0">Four features, each tied to evidence above, built into a working Photos app that runs entirely in your browser.</p></div>
+        <a class="navlink sol-cta" href="photos-clone/?demo=1">Open the live demo →</a>
+      </div>
+      <div class="sol-grid2">
+        <div class="sol-i"><span class="sol-n">1</span><b>AI-powered memory search</b><p>Describe it in your own words; partial memories still match and each result says why.</p><small>Evidence: people remember who (72%) and what occasion (56%), not file details. 5/18 fail because they “don’t remember enough details”.</small><a href="photos-clone/?demo=1#/search/pink%20dress%20at%20my%20friend%27s%20wedding">Try “pink dress at my friend’s wedding” →</a></div>
+        <div class="sol-i"><span class="sol-n">2</span><b>Interactive search assistant</b><p>When search is vague or empty it asks one smart question at a time: indoors or outdoors, who, when.</p><small>Evidence: 50% prefer being asked clarifying questions over suggested terms (17%).</small><a href="photos-clone/?demo=1#/search/photos%20with%20Mom">Try “photos with Mom” → Help me find it →</a></div>
+        <div class="sol-i"><span class="sol-n">3</span><b>Personal tags &amp; memory notes</b><p>Add your own words (“Mom’s 60th birthday”); they become the strongest search signal.</p><small>Evidence: users want to teach the app their own context; reviews ask for custom tags and notes.</small><a href="photos-clone/?demo=1#/tags">Open My tags →</a></div>
+        <div class="sol-i"><span class="sol-n">4</span><b>Search history &amp; saved searches</b><p>Unfinished searches wait for you; saved searches alert you when new photos match.</p><small>Evidence: 4/18 fall back to scrolling and 3/3 interviewees retried elsewhere after a failed search.</small><a href="photos-clone/?demo=1#/searches">Open Searches →</a></div>
+      </div>
+    </div>
+  </section>
+  <style>
+    .sol-wrap{margin-top:8px}.sol-top{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;align-items:center}
+    .sol-cta{display:inline-flex;font-weight:600}
+    .sol-grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin-top:14px}
+    .sol-i{display:flex;flex-direction:column;gap:6px;padding:14px;border:1px solid var(--border);border-radius:12px;background:var(--surface-raised)}
+    .sol-i p{margin:0;font-size:13.5px;color:var(--ink-2);line-height:1.45}.sol-i small{color:var(--ink-muted);line-height:1.4}
+    .sol-i a{margin-top:auto;font-size:13px;font-weight:600;color:var(--brand);text-decoration:none}.sol-i a:hover{text-decoration:underline}
+    .sol-n{width:24px;height:24px;border-radius:50%;background:var(--brand);color:var(--brand-ink);display:grid;place-items:center;font-size:12px;font-weight:700}
+  </style>
+
   <!-- ============ PRIMARY RESEARCH ============ -->
   <section id="primary" style="display:none">
     <p class="eyebrow">Primary research · user survey <span class="count" id="psCount"></span></p>

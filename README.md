@@ -4,6 +4,7 @@ Research dashboard and question-answering bot ("Oracle") for **Google Photos use
 
 - **Dashboard** - `dashboard.html` (charts, survey, interviews, and the **Discovery engine**: what kinds of old photos are hard to retrieve, what people remember vs forget, how they search when memory is incomplete, ranked opportunity areas, final summary).
 - **Oracle bot** - `chatbot.html` (BM25 retrieval over the data plus curated discovery answers; no LLM, runs fully in the browser).
+- **Solution (live demo)** - `photos-clone/` is a local-first Photos app with the four features built from the findings: memory search, interactive assistant, personal tags/notes, search history + saved searches. Open `photos-clone/?demo=1` to auto-load a demo story library.
 - `docs/Discovery_Report.md` - full written report.
 
 The two pages link to each other; dashboard questions open the bot with `?q=...`.

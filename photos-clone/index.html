@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#ffffff">
+<title>Photos</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=block" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="css/app.css?v=3">
+</head>
+<body>
+
+<header id="appbar">
+  <button class="ib" id="btn-menu" aria-label="Main menu"><span class="mi">menu</span></button>
+  <a class="brand" href="#/photos"><img src="assets/logo.svg" width="36" height="36" alt=""><span>Photos</span></a>
+  <div class="searchwrap">
+    <div class="searchbar" id="searchbar">
+      <button class="ib" id="search-go" aria-label="Search"><span class="mi">search</span></button>
+      <input id="search-input" type="text" placeholder="Search your photos" autocomplete="off" spellcheck="false">
+      <button class="ib hidden" id="search-clear" aria-label="Clear"><span class="mi">close</span></button>
+      <button class="ib" id="search-tune" aria-label="Search options"><span class="mi">tune</span></button>
+    </div>
+    <div id="suggest" class="suggest hidden"></div>
+  </div>
+  <div class="appbar-r">
+    <button class="ib" id="btn-create" title="Create"><span class="mi">add</span></button>
+    <button class="ib" id="btn-upload" title="Upload"><span class="mi">upload</span></button>
+    <button class="ib" id="btn-help" title="Help & shortcuts"><span class="mi">help</span></button>
+    <button class="ib" id="btn-settings" title="Settings"><span class="mi">settings</span></button>
+    <button class="ib" id="btn-account" title="Account"><span class="avatar" id="avatar">A</span></button>
+  </div>
+</header>
+
+<div id="selbar" class="selbar hidden">
+  <button class="ib" id="sel-close" aria-label="Clear selection"><span class="mi">close</span></button>
+  <div id="sel-count">0 selected</div>
+  <div class="selbar-actions" id="sel-actions"></div>
+</div>
+
+<nav id="sidenav">
+  <a class="nav" href="#/photos" data-nav="photos"><span class="mi">photo</span><span class="lbl">Photos</span></a>
+  <a class="nav" href="#/explore" data-nav="explore"><span class="mi">search</span><span class="lbl">Explore</span></a>
+  <a class="nav" href="#/sharing" data-nav="sharing"><span class="mi">group</span><span class="lbl">Sharing</span></a>
+  <div class="nav-title">Library</div>
+  <a class="nav" href="#/favorites" data-nav="favorites"><span class="mi">star</span><span class="lbl">Favorites</span></a>
+  <a class="nav" href="#/albums" data-nav="albums"><span class="mi">photo_album</span><span class="lbl">Albums</span></a>
+  <a class="nav" href="#/utilities" data-nav="utilities"><span class="mi">build</span><span class="lbl">Utilities</span></a>
+  <a class="nav" href="#/tags" data-nav="tags"><span class="mi">sell</span><span class="lbl">Tags</span></a>
+  <a class="nav" href="#/searches" data-nav="searches"><span class="mi">saved_search</span><span class="lbl">Searches</span><span class="nav-badge hidden" aria-label="Unfinished or new searches"></span></a>
+  <a class="nav" href="#/archive" data-nav="archive"><span class="mi">archive</span><span class="lbl">Archive</span></a>
+  <a class="nav" href="#/trash" data-nav="trash"><span class="mi">delete</span><span class="lbl">Trash</span></a>
+  <a class="nav" href="#/locked" data-nav="locked"><span class="mi">lock</span><span class="lbl">Locked Folder</span></a>
+  <div class="nav-title">Store</div>
+  <a class="nav" href="#/print" data-nav="print"><span class="mi">local_printshop</span><span class="lbl">Print store</span></a>
+  <div class="storage" id="storage-card">
+    <div class="storage-t"><span class="mi">cloud</span> Storage</div>
+    <div class="bar"><i id="storage-fill"></i></div>
+    <div class="storage-s" id="storage-text">â€”</div>
+    <button class="btn-o" id="btn-storage">Manage storage</button>
+  </div>
+</nav>
+<div id="scrim-nav" class="hidden"></div>
+
+<main id="outlet" tabindex="-1"></main>
+
+<button id="fab" aria-label="Upload or create"><span class="mi">add</span></button>
+<nav id="bottomnav">
+  <a href="#/photos" data-nav="photos"><span class="mi">photo</span><span>Photos</span></a>
+  <a href="#/explore" data-nav="explore"><span class="mi">search</span><span>Search</span></a>
+  <a href="#/sharing" data-nav="sharing"><span class="mi">group</span><span>Sharing</span></a>
+  <a href="#/library" data-nav="library"><span class="mi">photo_library</span><span>Library</span></a>
+</nav>
+
+<!-- Viewer -->
+<div id="viewer" class="hidden" aria-hidden="true">
+  <div class="v-top">
+    <button class="ib lt" id="v-close" aria-label="Back"><span class="mi">arrow_back</span></button>
+    <div class="v-title" id="v-title"></div>
+    <div class="v-actions" id="v-actions"></div>
+  </div>
+  <button class="v-nav prev" id="v-prev" aria-label="Previous"><span class="mi">chevron_left</span></button>
+  <button class="v-nav next" id="v-next" aria-label="Next"><span class="mi">chevron_right</span></button>
+  <div id="v-stage"></div>
+  <div id="v-bottom" class="v-bottom"></div>
+  <div id="v-film"></div>
+  <aside id="v-info" class="hidden"></aside>
+</div>
+
+<!-- Editor -->
+<div id="editor" class="hidden" aria-hidden="true"></div>
+
+<div id="dropzone" class="hidden"><div><span class="mi">cloud_upload</span><h2>Drop to upload</h2><p>Release to add photos and videos</p></div></div>
+<div id="tray" class="hidden"><header><span id="tray-title">Uploadingâ€¦</span><button class="ib" id="tray-min"><span class="mi">expand_more</span></button><button class="ib" id="tray-x"><span class="mi">close</span></button></header><div class="bar"><i id="tray-bar"></i></div><ul id="tray-list"></ul></div>
+
+<input type="file" id="file-input" accept="image/*,video/*,.json,.heic,.heif" multiple hidden>
+<input type="file" id="folder-input" webkitdirectory multiple hidden>
+
+<div id="ml-chip" class="hidden"></div>
+<div id="toast" class="hidden"></div>
+<div id="menu" class="hidden"></div>
+<div id="dialogs"></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="js/core.js"></script>
+<script src="js/db.js"></script>
+<script src="js/ingest.js"></script>
+<script src="js/select.js"></script>
+<script src="js/timeline.js"></script>
+<script src="js/viewer.js"></script>
+<script src="js/editor.js"></script>
+<script src="js/ml.js"></script>
+<script src="js/nlp.js"></script>
+<script src="js/engine.js"></script>
+<script src="js/features.js"></script>
+<script src="js/search.js"></script>
+<script src="js/notes.js"></script>
+<script src="js/memory.js"></script>
+<script src="js/library.js"></script>
+<script src="js/albums.js"></script>
+<script src="js/sharing.js"></script>
+<script src="js/create.js"></script>
+<script src="js/explore.js"></script>
+<script src="js/settings.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "Photos",
+  "short_name": "Photos",
+  "description": "Local-first photo library: timeline, albums, search, editor, memories.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [{ "src": "assets/logo.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }],
+  "share_target": { "action": "./index.html", "method": "GET", "params": { "title": "title", "text": "text", "url": "url" } }
+}
