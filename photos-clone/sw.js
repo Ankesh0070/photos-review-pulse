@@ -1,7 +1,7 @@
 /* Offline shell cache (app files only; photos live in IndexedDB) */
 const V = 'photos-clone-v2';
 const SHELL = ['./', 'index.html', 'manifest.json', 'assets/logo.svg', 'css/app.css',
-  'js/core.js', 'js/db.js', 'js/ingest.js', 'js/select.js', 'js/timeline.js', 'js/viewer.js', 'js/editor.js', 'js/ml.js', 'js/nlp.js', 'js/engine.js', 'js/features.js', 'js/search.js', 'js/notes.js', 'js/memory.js', 'js/library.js', 'js/albums.js', 'js/sharing.js', 'js/create.js', 'js/explore.js', 'js/settings.js', 'js/app.js'];
+  'js/core.js', 'js/db.js', 'js/ingest.js', 'js/select.js', 'js/timeline.js', 'js/viewer.js', 'js/editor.js', 'js/ml.js', 'js/nlp.js', 'js/engine.js', 'js/features.js', 'js/search.js', 'js/notes.js', 'js/memory.js', 'js/library.js', 'js/albums.js', 'js/sharing.js', 'js/create.js', 'js/askchat.js', 'js/explore.js', 'js/settings.js', 'js/app.js'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(V).then(c => c.addAll(SHELL)).then(() => self.skipWaiting())); });
 self.addEventListener('activate', e => { e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== V).map(k => caches.delete(k)))).then(() => self.clients.claim())); });
 self.addEventListener('fetch', e => {

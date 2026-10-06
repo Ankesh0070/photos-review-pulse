@@ -344,3 +344,19 @@ body.rail .nav-badge{position:absolute;margin:-18px 0 0 18px;min-width:16px;heig
 .sol-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:10px;margin-top:12px}
 .sol-card{display:flex;flex-direction:column;gap:6px;text-align:left;padding:12px;border:1px solid var(--outline);border-radius:var(--r-m);background:var(--surface,transparent);font:inherit;color:inherit;cursor:pointer}
 .sol-card:hover{background:var(--hover);border-color:var(--primary)}.sol-card b{font:500 14px var(--f)}.sol-ic{color:var(--primary)}.sol-d{font-size:12.5px;opacity:.8;line-height:1.4}.sol-try{font-size:12px;color:var(--primary);margin-top:auto}
+/* Ask Photos chat */
+.ask-fab{position:fixed;right:24px;bottom:96px;z-index:60;display:flex;align-items:center;gap:8px;padding:12px 18px;border:0;border-radius:28px;background:var(--primary);color:var(--on-primary);font:500 14px var(--f);box-shadow:0 4px 14px rgba(0,0,0,.28);cursor:pointer}
+.ask-fab:hover{background:var(--primary-h)}.ask-fab.hidden,.ask-panel.hidden{display:none}
+.ask-panel{position:fixed;right:20px;bottom:20px;z-index:70;width:min(420px,calc(100vw - 24px));height:min(640px,calc(100vh - 40px));display:flex;flex-direction:column;background:var(--bg);color:var(--text);border:1px solid var(--outline);border-radius:20px;box-shadow:0 12px 40px rgba(0,0,0,.3);overflow:hidden}
+.ask-head{display:flex;align-items:center;gap:10px;padding:12px 12px 12px 16px;border-bottom:1px solid var(--outline);background:var(--surface)}.ask-head>div{flex:1;display:flex;flex-direction:column}.ask-head small{color:var(--text3);font-size:12px}
+.ask-logo{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:var(--primary-c);color:var(--primary)}
+.ask-log{flex:1;overflow:auto;padding:14px;display:flex;flex-direction:column;gap:10px}
+.ask-msg{max-width:92%;padding:10px 12px;border-radius:16px;font-size:14px;line-height:1.45}.ask-msg p{margin:0}
+.ask-msg.bot{align-self:flex-start;background:var(--surface2);border-bottom-left-radius:4px}.ask-msg.me{align-self:flex-end;background:var(--primary);color:var(--on-primary);border-bottom-right-radius:4px}
+.ask-msg.typing{display:flex;gap:4px}.ask-msg.typing span{width:7px;height:7px;border-radius:50%;background:var(--text3);animation:askdot 1s infinite}.ask-msg.typing span:nth-child(2){animation-delay:.15s}.ask-msg.typing span:nth-child(3){animation-delay:.3s}
+@keyframes askdot{0%,60%,100%{opacity:.25}30%{opacity:1}}
+.ask-chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}.ask-chips .chip small{margin-left:6px;opacity:.6}.ask-chips .chip:disabled{opacity:.5;cursor:default}
+.ask-thumbs{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:8px}.ask-t{display:flex;flex-direction:column;gap:5px}
+.ask-img{aspect-ratio:4/3;border:0;border-radius:10px;background:var(--surface3) center/cover;cursor:pointer}.ask-why{font-size:11px;color:var(--text2);line-height:1.3}.ask-t .btn-o.sm{padding:4px 8px;font-size:12px}
+.ask-in{display:flex;gap:8px;padding:10px;border-top:1px solid var(--outline)}.ask-in .field{flex:1}.ask-foot{display:flex;align-items:center;gap:6px;padding:0 14px 10px;font-size:11px;color:var(--text3)}.ask-foot .mi{font-size:14px}
+@media (max-width:800px){.ask-fab{bottom:148px;right:16px}.ask-panel{right:0;bottom:0;width:100vw;height:100dvh;border-radius:0}}
