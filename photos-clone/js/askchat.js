@@ -127,11 +127,12 @@ function ask(q, res, out) {
   }
   // no candidates to split (or none left): ask about something the search doesn't have yet, in free text
   const have = { year: (res.clues.dates || []).length, person: (res.clues.people || []).length || (res.clues.unknownNames || []).length, place: (res.clues.places || []).length, setting: res.clues.setting, occasion: (res.clues.events || []).length };
-  const f = FALLBACK.find(x => !have[x.dim] && !S.fb.includes(x.dim));
+  const MAXQ = 3;   // question fatigue guard: after three free-text questions, stop asking and say so
+  const f = S.fb.length < MAXQ ? FALLBACK.find(x => !have[x.dim] && !S.fb.includes(x.dim)) : null;
   if (f) {
     pend = { kind: 'free', dim: f.dim };
     say(f.text, chips([...f.chips, ['Not sure', 'skip']], (v, label) => { you(label); if (v === 'skip') S.fb.push(f.dim); else { S.extra = (S.extra + ' ' + v).trim(); S.fb.push(f.dim); } busy = true; respond().finally(() => busy = false); }));
-  } else if (!S.fb.includes('text')) {
+  } else if (!S.fb.includes('text') && S.fb.length < MAXQ) {
     pend = { kind: 'free', dim: 'text' }; say('Anything else you remember: a word on it, what you were doing, something you wore?', chips([['Not sure', 'skip']], () => { you('Not sure'); S.fb.push('text'); busy = true; respond().finally(() => busy = false); }));
   } else {
     pend = null; say(out && out.total ? 'That’s all I can ask. Open the full results to browse them, or start a new search.' : 'I’m out of questions and nothing matches. Try “New search” with different words, or add the photo’s tags and notes so I can find it next time.', chips([['New search', 'n']], () => reset(true)));
@@ -151,7 +152,7 @@ function thumbs(list, res) {
 }
 function seeAll(res) { return el('button', { class: 'btn-t', onclick: () => { close(); location.hash = '#/search/' + encodeURIComponent(S.q) + (S.rec ? '/' + encodeURIComponent('{}') + '/' + S.rec.id : ''); } }, 'See all ' + res.out.total + ' results →'); }
 
-P.askchat = { open, close };
+P.askchat = { open, close, state: () => ({ q: S && S.q, shown: lastShown.slice(), pend: pend && pend.kind }) };
 const boot = () => { build(); };
 if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot); else boot();
 })();
